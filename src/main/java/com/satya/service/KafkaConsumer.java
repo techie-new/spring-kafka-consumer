@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 public class KafkaConsumer {
 
     Logger log = LoggerFactory.getLogger(KafkaConsumer.class);
-    private final String topic = "k-topic1";
+    private final String topic = "k-topic";
 
    /* @KafkaListener(topics = topic, groupId = "consumerGroup2")
     public void consume1(String message) {
